@@ -5,7 +5,7 @@ import { useParams, useHistory } from "react-router-dom";
 function DisplayRatings({ arts }) {
     const params = useParams()
     const history = useHistory()
-    const id = params.id - 418
+    const id = params.id - 1
 
     function handleClickBack() {
         history.push('/')

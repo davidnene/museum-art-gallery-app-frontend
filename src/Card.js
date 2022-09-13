@@ -34,7 +34,7 @@ function Card({ id, title, image, altText, artistTitle, dateStart, dateEnd, setA
 
     function handleRatingSubmit(e) {
         e.preventDefault()
-        fetch('http://localhost:9292/ratings', {
+        fetch('https://museum-art-gallery-app.herokuapp.com/ratings', {
             method: 'POST',
             headers:{
                 'content-Type':'application/json',

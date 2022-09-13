@@ -10,7 +10,7 @@ function App() {
   const [refresh, setRefresh] = useState(1)
 
   function handleArts() {
-    fetch('http://localhost:9292/arts')
+    fetch('https://museum-art-gallery-app.herokuapp.com/arts')
     .then(res => res.json())
     .then(data => setArts(data)
     )
