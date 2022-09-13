@@ -12,6 +12,8 @@ function DisplayRatings({ arts }) {
     };
 
     return (
+        <div className="container">
+        <div className="row row-cols-auto">
         <div className="card gx-1" style={{width: 25 + "rem"}}>
         <img style={{height: 220 + "px",width:220 + "px"}} src={arts[id].img_url} className="card-img-top" alt={arts[id].title}/>
         <div className="card-body">
@@ -41,6 +43,8 @@ function DisplayRatings({ arts }) {
                 </div>
             
         </div>
+    </div>
+    </div>
     </div>
     )
 };
