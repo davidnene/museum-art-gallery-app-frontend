@@ -5,7 +5,7 @@ function Header() {
             <h1 className="h1, text-center">AIC Museum Art Gallery</h1>
             <p className="lead, text-center">
             Welcome to our Artworks Gallery!<br/>
-            Feel free to give a rating on any of the arts
+            Feel free to give a rating on any of the arts<br/>
             </p>
         </div>
     )

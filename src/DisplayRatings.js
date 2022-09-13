@@ -12,7 +12,7 @@ function DisplayRatings({ arts }) {
     };
 
     return (
-        <div className="card gx-1" style={{width: 25 + "rem", position:"relative", left:"30%"}}>
+        <div className="card gx-1" style={{width: 25 + "rem"}}>
         <img style={{height: 220 + "px",width:220 + "px"}} src={arts[id].img_url} className="card-img-top" alt={arts[id].title}/>
         <div className="card-body">
             <h5 className="card-title">{arts[id].title}</h5>
