@@ -53,7 +53,7 @@ function Card({ id, title, image, altText, artistTitle, dateStart, dateEnd, setA
 
 
     return (
-        <div className='col-4'>
+        <div className='col'>
             <div className="card gx-1" style={{width: 23 + "rem", height: 37 + "rem"}}>
                 <img style={{height: 220 + "px",width:220 + "px"}} src={image} className="card-img-top" alt={altText} title={altText}/>
                 <div className="card-body">

@@ -12,12 +12,12 @@ function DisplayRatings({ arts }) {
     };
 
     return (
-        <div className="card gx-1" style={{width: 30 + "rem", position:"absolute", right:"450px"}}>
-        <img style={{height: 200 + "px",width:200 + "px"}} src={arts[id].img_url} className="card-img-top" alt={arts[id].title}/>
+        <div className="card gx-1" style={{width: 25 + "rem", position:"relative", left:"30%"}}>
+        <img style={{height: 220 + "px",width:220 + "px"}} src={arts[id].img_url} className="card-img-top" alt={arts[id].title}/>
         <div className="card-body">
             <h5 className="card-title">{arts[id].title}</h5>
             <p className="card-text">Artist: {arts[id].artist_title}</p>
-            <button style={{position:"absolute", right:"30px"}} onClick={handleClickBack} className="btn btn-danger">Back</button>
+            <button style={{position:"absolute", right:"10px"}} onClick={handleClickBack} className="btn btn-danger">Back</button>
                 <div>
                     <table className="table">
                         <thead>
